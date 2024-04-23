@@ -25,7 +25,10 @@ code {
     @apply text-[16px] sm:text-[20px] font-[700];
   }
   .section {
-    @apply border-t border-border-50 py-4;
+    @apply border-t-[2px] border-border-50 py-4;
+  }
+  .emphasize {
+    @apply bg-gradient-to-r from-bg-50 to-bg-100 text-white;
   }
   .link_text {
     @apply bg-clip-text text-transparent bg-gradient-to-r from-text-50 to-text-100;
@@ -38,7 +41,7 @@ code {
     @apply py-2;
   }
   .content_dot {
-    @apply inline-block w-[4px] h-[4px] bg-gradient-to-r from-bg-50 to-bg-100 rounded-full mr-1 text-center;
+    @apply inline-block min-w-[4px] min-h-[4px] bg-gradient-to-r from-bg-50 to-bg-100 rounded-full mr-2 text-center;
   }
 }
 
