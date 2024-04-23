@@ -383,7 +383,7 @@ function App() {
               <div className="space-x-1">
                 <span>👉</span>
                 <a
-                  href="https://github.com/hopak-e/MapleInfo"
+                  href="https://github.com/hopak-e/seb39_main_014"
                   className="link_text"
                 >
                   GitHub Repository 보러 가기
